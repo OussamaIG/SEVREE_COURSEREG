@@ -17,7 +17,7 @@ btn.addEventListener("click", ()=>{
         Array.from(deletedelms).forEach(element => {
         element.classList.remove("row2")
         element.classList.add("hidden")
-        btn.textContent = "Read All"
+        btn.textContent = "handball"
         myclose = false
     });
     }      

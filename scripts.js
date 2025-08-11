@@ -35,7 +35,7 @@ classElements.forEach(element => {
         //    'element' here refers to the specific div that was clicked during the loop.
         // 5. Check if the hidden paragraph exists and then toggle its classes.
         if (toggle == true) {
-            const hiddenParagraph = element.querySelector('.hidden');
+            const hiddenParagraph = element.querySelector('.hiddentxt');
             const hiddenarrow = element.querySelector('.hiddenimg')
             const rightarrow = element.querySelector('.imgshow')
 
@@ -45,7 +45,7 @@ classElements.forEach(element => {
             rightarrow.classList.remove('imgshow')
             rightarrow.classList.add('hiddenimg')
 
-            hiddenParagraph.classList.remove('hidden');
+            hiddenParagraph.classList.remove('hiddentxt');
             hiddenParagraph.classList.add('descdisp');
             toggle = false
         }else if(toggle == false){
@@ -62,7 +62,7 @@ classElements.forEach(element => {
             
             
             hiddenParagraph.classList.remove('descdisp');
-            hiddenParagraph.classList.add('hidden');
+            hiddenParagraph.classList.add('hiddentxt');
             toggle = true
         }
     });

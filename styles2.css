@@ -252,6 +252,9 @@ main{
 .hiddenimg{
     display: none;
 }
+.hiddentxt{
+    display: none;
+}
 .contentinfo{
     display: flex;
     align-items: center;

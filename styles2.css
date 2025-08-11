@@ -264,7 +264,7 @@ main{
 
 @media (max-width: 480px) {
     html{
-        font-size: 90%;
+        font-size: 85%;
     }
     header .content img{
         width: 70%;
